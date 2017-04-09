@@ -1,0 +1,23 @@
+{
+  "name": "nodeFireworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "count-server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "crypto": "^0.0.3",
+    "express": "^4.15.2",
+    "node-fetch": "^1.6.3",
+    "request": "^2.81.0",
+    "web-socket": "^0.0.0",
+    "websocket": "^1.0.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node count-server.js"
+  },
+  "keywords": [],
+  "author": "Laura Warr",
+  "license": "ISC"
+}
