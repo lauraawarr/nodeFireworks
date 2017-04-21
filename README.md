@@ -7,6 +7,7 @@ A dual screen experience powered by NodeJS web sockets and THREEjs for the visua
 ```
 npm install
 ```
+
 3. Within front-end.js comment out line 63
 ```
 const URL = "wss://" + window.location.hostname + ':' + PORT;
@@ -19,6 +20,7 @@ For example:
 ```
 const URL = 'ws://192.168.0.60:1337';
 ```
+
 4. In the command line, run the following to start a node server
 ```
 node count-server.js
@@ -29,4 +31,5 @@ node count-server.js
 sudo npm install http-server -g
 http-server
 ```
+
 6. Navigate to localhost:8080/
